@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockControllerLib", "LockControllerLib\LockControllerLib.csproj", "{8B0832FF-581E-4340-8089-DAE02F887240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockControllerTest", "LockControllerTest\LockControllerTest.csproj", "{38115668-77BD-4B1C-8675-8FB0EA1D2567}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B0832FF-581E-4340-8089-DAE02F887240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0832FF-581E-4340-8089-DAE02F887240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0832FF-581E-4340-8089-DAE02F887240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0832FF-581E-4340-8089-DAE02F887240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38115668-77BD-4B1C-8675-8FB0EA1D2567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38115668-77BD-4B1C-8675-8FB0EA1D2567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38115668-77BD-4B1C-8675-8FB0EA1D2567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38115668-77BD-4B1C-8675-8FB0EA1D2567}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
