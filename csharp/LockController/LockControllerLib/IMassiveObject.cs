@@ -7,7 +7,7 @@ public interface IMassiveObject
     string Id { get; }
 }
 
-class MassiveObject : IMassiveObject
+public class MassiveObject : IMassiveObject
 {
     public MassiveObject(string id)
     {
