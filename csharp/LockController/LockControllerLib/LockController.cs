@@ -84,6 +84,11 @@ public class LockController
         }
     }
 
+    public bool IsLocked(string mId)
+    {
+        return _lockedItems.ContainsKey(mId);
+    }
+
     /**
      * When we dispose this object we should ensure nothing is left locked
      * and that we remove the Subscription from the Massive Database
@@ -99,5 +104,10 @@ public class LockController
         }
 
         _subscription?.Delete();
+    }
+
+    public bool IsSubscriptionActive()
+    {
+        return _subscription.PublishingEnabled;
     }
 }
